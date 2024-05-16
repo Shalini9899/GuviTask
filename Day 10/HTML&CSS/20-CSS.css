@@ -1,0 +1,8 @@
+.rotate-element{
+    background-color: red; 
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30%;
+    bottom: 60%;  
+    transform-origin: center;
+}

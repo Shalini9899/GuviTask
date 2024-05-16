@@ -1,0 +1,29 @@
+.cursor-type{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer; 
+}
+
+#pointer{
+    cursor: pointer;
+}
+
+#crosshair{
+    cursor: crosshair;
+}
+
+#text{
+    cursor: text;
+}
+
+#move{
+    cursor: move;
+}
+#wait{
+    cursor: wait;
+}
+#help{
+    cursor: help;
+}
+

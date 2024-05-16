@@ -1,0 +1,6 @@
+.gradient-background{
+    width: 300;
+    height: 200;
+    background: linear-gradient(to bottom, white,blue,red, green);
+    position: absolute;
+}

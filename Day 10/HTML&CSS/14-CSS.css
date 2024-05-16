@@ -1,0 +1,7 @@
+.image-border{
+    border: 30px solid transparent;
+    background-image: url(img/polar.jpeg);
+    background-repeat: repeat;
+    padding: 100px;
+
+}

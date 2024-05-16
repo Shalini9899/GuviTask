@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--question 02-->
+
+l<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--question 03-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms challenge</title>
+    <link rel="stylesheet" href="03-CSS.css">
+   
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(148, 7, 223);">Contact Us</h1>
+    </header>
+    <main>
+        <form action="/challenge" method="GET">
+            <section>
+                <h2 style="color:rgb(51, 67, 100);">How can we help you?</h2>
+                <ul>
+                    <li>  <label for="username">Your name</label>
+                        <input type="text" name="username" id="username" required/></li>
+                   
+                        <li>
+                        <label for="email">Your E-mail Address</label>
+                        <input type="email" name="email" id="email" required /></li>
+                    
+                        <li><label for="phone">Your Phone Number</label>
+                        <input type="number" name="phone" id="phone" required minlength="5" />
+                    </li>
+                </ul>
+            </section>
+
+    <section>
+
+      <ul>  
+       <li>
+        <label for="message">Your message</label>
+        <textarea name="message" id="message" required minlength="10" maxlength="200" rows="6"></textarea></ul>
+       </li> 
+    </section>
+
+    <section>
+        <label for="search" >How did you find us?</label>
+        <select name="channel" id="channel" required>
+            <option value="Search">Social media</option>
+            <option value="word-of-mouth">Friends & family</option>
+            <option value="other">newsPapper</option>
+  </select>
+ </section>
+ <section>
+    <h2 style="color:rgb(51, 67, 100);">How should we reply?</h2>
+
+    <ul>
+        <li  class="inline-control">
+            <input type="radio" name="reply" id="reply-phone" value="phone" required />
+            <label for="reply-phone">Call me</label>
+        </li>
+
+        <li  class="inline-control">
+            <input type="radio" name="reply" id="reply-email" value="email" required />
+            <label for="reply-email">Send me an email</label>
+        </li>
+
+        <li  class="inline-control">
+            <input type="radio" name="reply" id="reply-none" value="none" required />
+            <label for="reply-phone">Don't reply</label>
+        </li>
+    </ul> 
+ </section>
+       
+       <section class="inline-control">
+            <input type="checkbox" id="accept-terms" name="accept-terms" required/>
+            <label for="accept-terms">Accept terms?</label>
+       </section>
+
+
+      <section id="form-actions">
+        <button type="reset" class="btn-empty">Clear</button>
+        <button type="submit" class="btn-filled">Submit</button>
+      </section>
+        
+    </form>
+    </main>
+   
+</body>
+
+<style>  
+    body {
+        background-color: rgb(236, 252, 253);
+        font-family: sans-serif;
+    }
+    h1 {
+        text-align: center;
+        color: rgb(226, 169, 169);
+        margin: 2rem;
+    }
+    
+    
+    
+    form {
+        width: 40rem;
+        margin: auto;
+        background-color: rgb(246, 250, 255);
+        padding: 1rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgb(183, 153, 199);
+    
+    }
+    
+    section {
+        margin-bottom: 1rem;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    label {
+        color: rgb(66, 76, 97);
+        display: block;
+        margin: 0.5rem 0;
+    }
+    
+    input,
+    textarea,
+    select {
+        font: inherit;
+        padding: 0.5rem;
+        border: 1px solid rgb(152, 159, 184);
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        resize: none;
+    }
+    
+    input:focus,
+    textarea:focus {
+        background-color: rgb(217, 227, 247);
+    }
+    
+    button {
+        font: inherit;
+        border: 1px solid rgb(148, 7, 223);
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    #form-actions {
+        text-align: right;
+    }
+    
+    .btn-filled {
+        background-color: rgb(51, 67, 100);
+        color: white;
+    }
+    
+    .btn-empty {
+        background-color: transparent;
+        color: rgb(51, 67, 100);
+    }
+    .btn-filled:hover {
+        background-color: rgb(69, 89, 129);
+        border-color: rgb(69, 89, 129);
+    }
+    .btn-empty:hover {
+        background-color: rgb(208, 215, 230);
+    }
+    
+    .inline-control {
+        display: flex;
+    }
+    .inline-control label {
+        margin: 0;
+        margin-left: 0.5rem;
+    }
+    
+    .inline-control input {
+        width: auto;
+    }
+    
+    </style>
+</html>
+
+<!--question 04-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming Languages, Frameworks, and Databases</title>
+</head>
+<body>
+<h2>
+   <li>Programming Languages</li>
+   </h2>
+<ul>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Java</li>
+</ul>
+
+<h2><li>JavaScript Frameworks</li></h2>
+<ul>
+    <li>Angular</li>
+    <li>React</li>
+    <li>Vue.js</li>
+</ul>
+
+<h2><li>Python Frameworks </li></h2>
+<ul>
+    <li>Django Framework</li>
+    <li>Flask Framework</li>
+</ul>
+
+<h2><li>Frameworks and Tools</li></h2>
+<ul>
+    <li>Spring</li>
+    <li>Maven</li>
+    <li>Hibernate</li>
+</ul>
+
+<h2><li>Databases</li></h2>
+<ul>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Cassandra</li>
+</ul>
+
+</body>
+</html>
+
+<!--question 05-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Google in New Tab</title>
+</head>
+<body>
+<a href="https://google.com" target="_blank"  style="color: blueviolet;">Click here to open googgle </a>
+</body>
+</html>
+
+
+<!--question 6-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Type Selection</title>
+</head>
+<body>
+
+<form>
+    <label>
+        <input type="radio" name="employee-type" > Salaried
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="employee-type"> Own Business
+    </label>
+</form>
+<style>
+    input[type="radio"] {
+    appearance: none;
+    width: 13px; 
+    height: 13px;
+    border-radius: 50%; 
+    border: 3px solid #ccc;
+}
+    input[type="radio"]:checked{
+        background-color: blue;
+    }
+</style>
+</body>
+</html>
+
+
+
+<!--question 09-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements with Default Values</title>
+</head>
+<body>
+    <h1>Form Elements with Default Values</h1>
+    <form>
+        <!-- Text input -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" value="Default Text"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="password123"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="example@example.com"><br><br>
+
+        <!-- Number input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" value="42"><br><br>
+
+        <!-- Telephone input -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel" value="+1234567890"><br><br>
+
+        <!-- URL input -->
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" value="https://www.example.com"><br><br>
+
+        <!-- Date input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="2024-05-15"><br><br>
+
+        <!-- Time input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="13:45"><br><br>
+
+        <!-- Color input -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+        <!-- File input -->
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Checkbox input -->
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br><br>
+
+        <!-- Radio input -->
+        <label>Radio buttons:</label>
+        <input type="radio" id="radio1" name="radio" value="option1" checked>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="option2">
+        <label for="radio2">Option 2</label><br><br>
+
+        <!-- Range input -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+        <!-- Search input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" value="Search query"><br><br>
+
+        <!-- Hidden input -->
+        <input type="hidden" id="hidden" name="hidden" value="hiddenValue">
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
+<!--question 10-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Highlighted Text</title>
+</head>
+<body>
+
+<p>HTML & CSS is <mark>awesome</mark>.</p>
+
+</body>
+</html>
+
+
+<!--question 11-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Input Elements</title>
+</head>
+<body>
+    <h1>All Input Elements Example</h1>
+    <form>
+        <!-- Text input -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Number input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number"><br><br>
+
+        <!-- Telephone input -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel"><br><br>
+
+        <!-- URL input -->
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url"><br><br>
+
+        <!-- Date input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Time input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <!-- Color input -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- File input -->
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Checkbox input -->
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+        <!-- Radio input -->
+        <label>Radio buttons:</label>
+        <input type="radio" id="radio1" name="radio" value="option1">
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="option2">
+        <label for="radio2">Option 2</label><br><br>
+
+        <!-- Range input -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <!-- Search input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <!-- Hidden input -->
+        <input type="hidden" id="hidden" name="hidden" value="hiddenValue">
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
