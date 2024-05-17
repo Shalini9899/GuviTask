@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+   
+}
+#event{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px; 
+    letter-spacing: 1px;  
+}
+#no{text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    letter-spacing: 2px;   
+
+}
+#second-container{
+   
+    border: 2px solid rgb(59, 59, 7);
+ border-width: 5px;
+    height: 500px;
+    width: 1400px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+
+#pic{
+    background:url('per.jpg');
+    background-position: center;
+    background-size:cover ;
+    
+    padding: 5px;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    
+   
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    font-size: x-large;
+    position: relative;
+
+    width: 200px;
+    height: 100%;
+    
+}
+#name{
+   position: absolute;
+   right: 0px;
+}
+#email{
+    position: absolute;
+    right: 0px;
+    bottom:220px;
+}
+#attend{
+    position:absolute;
+    right: 0px;
+   bottom: 50px;
+}
+#phone{
+    position: absolute;
+    right: 0px;
+    bottom:165px;
+}
+#seat{
+    position: absolute;
+    right: 0px;
+    bottom:106px;
+
+}
+#bio{  display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    
+
+}
+
+#detail{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-top: 50px;
+    
+}
+#input{
+    width: 300px;
+    height: 25px ;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+column-gap: 50px;
+ 
+}
+#sub{
+   position: absolute;
+   top: 300px ;
+   right: 0px;
+   width: 190px;
+   height: 30px ;
+   background-color:rgb(140, 194, 31);
+   color: aliceblue;
+}
+#cancel{
+   position: absolute;
+   bottom:220px;
+   width: 190px;
+   top: 538px;
+   height: 30px ;
+
+}
