@@ -19,16 +19,16 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @GetMapping("/index")
+    @GetMapping("/indexx")
     public String start(){
-        return "index";}
+        return "indexx";}
 
-    @GetMapping("/add-product")
+    @GetMapping("/addProduct")
     public String addProductSheet(Model model){
         model.addAttribute("product",new Product());
-        return "add-product";
+        return "addProduct";
     }
-    @PostMapping("add-product")
+    @PostMapping("addProduct")
     public String addProduct(@ModelAttribute Product product){
         productService.saveProduct(product);
         return "redirect:/";
