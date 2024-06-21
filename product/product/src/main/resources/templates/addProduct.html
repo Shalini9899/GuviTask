@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        h2 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #333333;
+        }
+        input[type=text], input[type=number] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            transition: border-color 0.3s ease;
+        }
+        input[type=text]:focus, input[type=number]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        input[type=submit], button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        input[type=submit]:hover, button:hover {
+            background-color: #0056b3;
+        }
+        button {
+            background-color: #6c757d;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Add Product</h2>
+    <form action="/addProduct" method="post">
+        <div class="form-group">
+            <label for="name">Product Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" step="0.01" min="0" required>
+        </div>
+        <div class="form-group">
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <button onclick="window.location.href='/indexx';">Back to Home</button>
+</div>
+
+</body>
+</html>

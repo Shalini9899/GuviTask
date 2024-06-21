@@ -1,0 +1,6 @@
+img{
+    border-radius: 10px;
+    border: 2px dashed #100;
+    filter: grayscale(100%);
+
+}
